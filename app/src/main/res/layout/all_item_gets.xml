@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/category" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".4"
+            android:background="#D3D3D3"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/best_offer"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/black"
+                android:textStyle="bold|normal"
+                android:textSize="14sp"
+                android:layout_gravity="start|center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="@string/see_all"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textSize="11sp"
+                android:layout_gravity="end|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <include layout="@layout/slider_view"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".4"
+            android:background="#D3D3D3"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:text="shirts"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/black"
+                android:textStyle="bold|normal"
+                android:textSize="14sp"
+                android:layout_gravity="start|center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="@string/see_all"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/purple_200"
+                android:textStyle="normal"
+                android:textSize="11sp"
+                android:layout_gravity="end|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/shirts" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".4"
+            android:background="#D3D3D3"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:text="kurtis"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/black"
+                android:textStyle="bold|normal"
+                android:textSize="14sp"
+                android:layout_gravity="start|center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="@string/see_all"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textSize="11sp"
+                android:layout_gravity="end|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/kurtis_items" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".4"
+            android:background="#D3D3D3"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:text="cosmetics"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/black"
+                android:textStyle="bold|normal"
+                android:textSize="14sp"
+                android:layout_gravity="start|center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="@string/see_all"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textSize="11sp"
+                android:layout_gravity="end|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <include layout="@layout/cosmetics"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".4"
+            android:background="#D3D3D3"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:text="sarees"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/black"
+                android:textStyle="bold|normal"
+                android:textSize="14sp"
+                android:layout_gravity="start|center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="@string/see_all"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textSize="11sp"
+                android:layout_gravity="end|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <include layout="@layout/sarees"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".4"
+            android:background="#D3D3D3"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:text="partywear"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/black"
+                android:textStyle="bold|normal"
+                android:textSize="14sp"
+                android:layout_gravity="start|center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="@string/see_all"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/purple_500"
+                android:textStyle="normal"
+                android:textSize="11sp"
+                android:layout_gravity="end|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <include layout="@layout/party_wear"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha=".4"
+            android:background="#D3D3D3"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:elevation="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/best_offer"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/black"
+                android:textStyle="bold|normal"
+                android:textSize="14sp"
+                android:layout_gravity="start|center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="@string/see_all"
+                android:padding="10dp"
+                android:layout_margin="@dimen/cardview_default_radius"
+                android:textColor="@color/black"
+                android:textStyle="normal"
+                android:textSize="11sp"
+                android:layout_gravity="end|center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

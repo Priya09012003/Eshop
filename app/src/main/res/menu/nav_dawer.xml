@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/baseline_home_24"
+
+        />
+
+    <item
+        android:title="@string/favourite_zone"
+        >
+        <menu>
+            <item
+                android:title="receipts"
+                android:icon="@drawable/baseline_book_24"/>
+            <item
+                android:title="Terms and Conditions"
+                android:icon="@drawable/baseline_library_add_check_24"/>
+            <item
+                android:title="Privacy Policy"
+                android:icon="@drawable/baseline_privacy_tip_24"/>
+
+
+
+
+        </menu>
+
+    </item>
+    <item
+        android:title="Contact_us"
+        android:id="@+id/contactus"
+        android:icon="@drawable/baseline_contact_support_24"
+        />
+
+    <item
+        android:title="My Account"
+        >
+        <menu>
+            <item
+                android:title="@string/my_profile"
+                android:id="@+id/profile"
+                android:icon="@drawable/baseline_person_24"/>
+            <item
+                android:title="@string/my_rewards"
+                android:id="@+id/rewards"
+                android:icon="@drawable/rewards"/>
+            <item
+                android:title="@string/my_orders"
+                android:id="@+id/orders"
+                android:icon="@drawable/shoppingbahgs"/>
+            <item
+                android:title="@string/my_notifications"
+                android:id="@+id/notifications"
+                android:icon="@drawable/notificatin"/>
+
+
+
+        </menu>
+
+    </item>
+    <item
+        android:title="share"
+        android:id="@+id/share"
+        android:icon="@drawable/baseline_share_24"
+        />
+</menu>
